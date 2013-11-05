@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(231, 231, 231);
+}
+.message-readout {
+background-color: white;
+border: 1px solid black;
+height: 400px;
+overflow-y: scroll;
+font-family: courier;
+padding: 10px;
+font-size: 12px;
+width: 69%;
+display: inline-block;
+box-sizing: border-box;
+margin: 0 1% 1% 0;
+vertical-align: top;
+}
+.new-message-input {
+  display: block;
+  width: 100%;
+  resize: none;
+}
+.users-list {
+  border: 1px solid black;
+  height: 400px;
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  background-color: white;
+  box-sizing:border-box;
+  margin: 0 0 1% 0;
+  vertical-align: top;
+  font-size: 12px;
+  font-family: courier;
+}
